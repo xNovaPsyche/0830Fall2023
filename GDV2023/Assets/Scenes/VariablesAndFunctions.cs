@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class VariablesAndFunctions : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int myInt = 5;
+
     void Start()
     {
-        
+        myInt = MultiplyByTwo(myIny);
+        Debug.log(myInt);
     }
 
-    // Update is called once per frame
-    void Update()
+    int MultiplyByTwo (int number)
     {
-        
+        int result;
+        result = number * 2;
+        return result;
+
     }
 }
