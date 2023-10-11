@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 9153802696622899755}
   - component: {fileID: 856496484895520572}
   - component: {fileID: 7248652710084975710}
-  - component: {fileID: 1511528153598117643}
   m_Layer: 0
   m_Name: Laser_Bolt
   m_TagString: Untagged
@@ -108,16 +107,3 @@ CapsuleCollider:
   m_Height: 2.24
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1511528153598117643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7285462605030541822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 710bab424fb74ec4ba2625de131ab5df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30

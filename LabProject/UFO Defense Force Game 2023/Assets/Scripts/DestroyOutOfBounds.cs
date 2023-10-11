@@ -10,7 +10,7 @@ public class Destroy : MonoBehaviour
 
     void Awake()
     {
-        //Time.timeScale = 1;
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class Destroy : MonoBehaviour
         {
             Debug.Log("Game Over!");
             Destroy(gameObject);
-            //Time.timeScale = 0;
+            Time.timeScale = 0;
         }
     }
 }
