@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7248652710084975710, guid: 50ab2f560bd7d2849ab076d3d22d0485, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7285462605030541822, guid: 50ab2f560bd7d2849ab076d3d22d0485, type: 3}
       propertyPath: m_Name
       value: Laser_Bolt
