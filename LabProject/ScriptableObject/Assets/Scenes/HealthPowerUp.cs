@@ -1,10 +1,10 @@
 using UnityEngine;
 
+[SerializeField] private FloatData healthValue;
+
 public class HealthPowerUp : MonoBehaviour
 {
     public float value;
-
-    [SerializeField] private FloatData healthValue;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -29,10 +29,9 @@ public class HealthPowerUp : MonoBehaviour
             // Add the health value to the player's current health
             healthController.AddHealth(healthValue.Value);
         }
-
+    }
     public void UpdateValue(float num)
         {
             value += num;
         }
     }
-}
