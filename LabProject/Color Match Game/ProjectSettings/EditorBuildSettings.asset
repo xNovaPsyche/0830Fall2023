@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/ColorMatchingGame.unity
+    guid: 9e788976fe692654d9582e504eefef57
+  - enabled: 1
+    path: Assets/123GO.unity
+    guid: f6223e1388663f749881b94150e477da
+  - enabled: 1
+    path: Assets/Instancing.unity
+    guid: 486afa899a8f73745b3f6a0c953abc57
   m_configObjects: {}
